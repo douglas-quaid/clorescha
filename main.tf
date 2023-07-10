@@ -78,4 +78,5 @@ resource "azurerm_storage_blob" "webfolder" {
   type                   = "Block"
   content_type           = "text/html"
   source                 = each.key
+  content_md5            = filemd5(each.key)
 }
