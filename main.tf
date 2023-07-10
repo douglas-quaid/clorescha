@@ -71,7 +71,7 @@ resource "azurerm_cdn_profile" "res-10" {
 
 resource "azurerm_storage_blob" "webfolder" {
   for_each = fileset(path.module, "upload/*")
- 
+
   name                   = trimprefix(each.key, "upload/")
   storage_account_name   = azurerm_storage_account.res-4.name
   storage_container_name = azurerm_storage_container.res-6.name
