@@ -1,0 +1,32 @@
+{
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn",
+		"resource_type": "azurerm_cdn_endpoint",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn/customdomains/www-rcapz-net": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn/customDomains/www-rcapz-net",
+		"resource_type": "azurerm_cdn_endpoint_custom_domain",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/blobServices/default/containers/$web": {
+		"resource_id": "https://datdevstorage.blob.core.windows.net/$web",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/microsoft.cdn/profiles/cdn-profile": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile",
+		"resource_type": "azurerm_cdn_profile",
+		"resource_name": "res-10"
+	}
+}

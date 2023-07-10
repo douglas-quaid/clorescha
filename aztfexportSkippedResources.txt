@@ -1,0 +1,7 @@
+Following resources are marked to be skipped:
+
+- /subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn/origins/datdevstorage-blob-core-windows-net
+- /subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/blobServices/default
+- /subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/fileServices/default
+- /subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/queueServices/default
+- /subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/tableServices/default
