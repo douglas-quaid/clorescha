@@ -28,6 +28,26 @@ This a dogebread
     Now testing with purge cdn
 </h2>
 
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+	fetch('https://datwebcounter.azurewebsites.net/api/messages/{id}?')
+    // The API call was successful!
+    .then(function (response) {
+	return response.text();})
+    
+    // This is the HTML from our response as a text string
+    .then(function (html) {
+	document.getElementById("demo").innerHTML = html;})
+    
+    // There was an error
+	.catch(function (err) {	
+	console.warn('Something went wrong.', err);
+	});
+}
+myFunction();
+</script>
 
 
 </body>
