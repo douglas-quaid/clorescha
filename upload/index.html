@@ -39,14 +39,14 @@ function myFunction() {
     
     // This is the HTML from our response as a text string
     .then(function (html) {
-	document.getElementById("demo").innerHTML = html;})
+        document.getElementById("demo").innerHTML = "You are visitor #" + html;})
     
     // There was an error
 	.catch(function (err) {	
 	console.warn('Something went wrong.', err);
 	});
 }
-myFunction();
+document.onload = myFunction();
 </script>
 
 

@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "route": "messages/{id}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "name": "out",
+      "type": "table",
+      "tableName": "mctable",
+      "connection": "MyStorageConnectionAppSetting",
+      "direction": "out"
+    },
+    {
+      "name": "messageJSON",
+      "type": "table",
+      "tableName": "mctable",
+      "connection": "MyStorageConnectionAppSetting",
+      "direction": "in",
+      "partitionKey": "count"
+    }
+  ]
+}
