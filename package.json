@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "name": "clorescha",
+  "description": "This my Cloud Res Challenge",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "homepage": "https://github.com/douglas-quaid/clorescha",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

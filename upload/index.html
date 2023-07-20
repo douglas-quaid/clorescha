@@ -24,24 +24,20 @@ This a dogebread
 
 <img src="https://i1.sndcdn.com/avatars-000610945608-v8vkw5-t500x500.jpg">
 
-<h2>
-    Now testing with purge cdn
-</h2>
-
 <p id="demo"></p>
 
 <script>
 function myFunction() {
 	fetch('https://datwebcounter.azurewebsites.net/api/messages/{id}?')
-    // The API call was successful!
+    // Successful API call
     .then(function (response) {
 	return response.text();})
     
-    // This is the HTML from our response as a text string
+    // Print HTML
     .then(function (html) {
-        document.getElementById("demo").innerHTML = "You are visitor #" + html;})
+        document.getElementById("demo").innerHTML = html;})
     
-    // There was an error
+    // Log error
 	.catch(function (err) {	
 	console.warn('Something went wrong.', err);
 	});
