@@ -19,14 +19,14 @@
     {
       "name": "out",
       "type": "table",
-      "tableName": "mctable",
+      "tableName": "visitcount",
       "connection": "MyStorageConnectionAppSetting",
       "direction": "out"
     },
     {
       "name": "messageJSON",
       "type": "table",
-      "tableName": "mctable",
+      "tableName": "visitcount",
       "connection": "MyStorageConnectionAppSetting",
       "direction": "in",
       "partitionKey": "count"
