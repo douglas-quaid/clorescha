@@ -1,32 +1,332 @@
 {
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff": {
-		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff",
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter",
 		"resource_type": "azurerm_resource_group",
-		"resource_name": "res-0"
+		"resource_name": "SC0"
 	},
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn": {
-		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn",
-		"resource_type": "azurerm_cdn_endpoint",
-		"resource_name": "res-1"
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.DocumentDb/databaseAccounts/countertable": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.DocumentDB/databaseAccounts/countertable",
+		"resource_type": "azurerm_cosmosdb_account",
+		"resource_name": "SC1"
 	},
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn/customdomains/www-rcapz-net": {
-		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile/endpoints/datcdn/customDomains/www-rcapz-net",
-		"resource_type": "azurerm_cdn_endpoint_custom_domain",
-		"resource_name": "res-2"
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.DocumentDb/databaseAccounts/countertable/TABLES/visitcount": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.DocumentDB/databaseAccounts/countertable/tables/visitcount",
+		"resource_type": "azurerm_cosmosdb_table",
+		"resource_name": "SC2"
 	},
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage": {
-		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage",
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Logic/workflows/slackconnector": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Logic/workflows/slackconnector",
+		"resource_type": "azurerm_logic_app_workflow",
+		"resource_name": "SC3"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter",
+		"resource_type": "azurerm_log_analytics_workspace",
+		"resource_name": "SC4"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|AlphabeticallySortedComputers": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|AlphabeticallySortedComputers",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC5"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|StaleComputers": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|StaleComputers",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC6"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|dataPointsPerManagementGroup": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|dataPointsPerManagementGroup",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC7"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|dataTypeDistribution": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_General|dataTypeDistribution",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC8"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllEvents": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllEvents",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC9"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslog": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslog",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC10"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogByFacility": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogByFacility",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC11"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogByProcessName": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogByProcessName",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC12"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogsWithErrors": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AllSyslogsWithErrors",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC13"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AverageHTTPRequestTimeByClientIPAddress": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AverageHTTPRequestTimeByClientIPAddress",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC14"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AverageHTTPRequestTimeHTTPMethod": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|AverageHTTPRequestTimeHTTPMethod",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC15"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesClientIPAddress": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesClientIPAddress",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC16"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesHTTPRequestMethod": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesHTTPRequestMethod",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC17"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesHTTPUserAgent": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountIISLogEntriesHTTPUserAgent",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC18"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByHostRequestedByClient": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByHostRequestedByClient",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC19"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByURLForHost": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByURLForHost",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC20"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByURLRequestedByClient": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfIISLogEntriesByURLRequestedByClient",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC21"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfWarningEvents": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|CountOfWarningEvents",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC22"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|DisplayBreakdownRespondCodes": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|DisplayBreakdownRespondCodes",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC23"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventLog": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventLog",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC24"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventSource": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventSource",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC25"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventsID": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsByEventsID",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC26"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsInOMBetween2000to3000": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsInOMBetween2000to3000",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC27"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsWithStartedinEventID": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|EventsWithStartedinEventID",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC28"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|FindMaximumTimeTakenForEachPage": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|FindMaximumTimeTakenForEachPage",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC29"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|IISLogEntriesForClientIP": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|IISLogEntriesForClientIP",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC30"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ListAllIISLogEntries": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ListAllIISLogEntries",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC31"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|NoOfConnectionsToOMSDKService": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|NoOfConnectionsToOMSDKService",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC32"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ServerRestartTime": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ServerRestartTime",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC33"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|Show404PagesList": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|Show404PagesList",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC34"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ShowServersThrowingInternalServerError": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|ShowServersThrowingInternalServerError",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC35"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesReceivedByEachAzureRoleInstance": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesReceivedByEachAzureRoleInstance",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC36"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesReceivedByEachIISComputer": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesReceivedByEachIISComputer",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC37"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesRespondedToClientsByClientIPAddress": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesRespondedToClientsByClientIPAddress",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC38"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesRespondedToClientsByEachIISServerIPAddress": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesRespondedToClientsByEachIISServerIPAddress",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC39"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesSentByClientIPAddress": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|TotalBytesSentByClientIPAddress",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC40"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WarningEvents": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WarningEvents",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC41"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WindowsFireawallPolicySettingsChanged": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WindowsFireawallPolicySettingsChanged",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC42"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WindowsFireawallPolicySettingsChangedByMachines": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.OperationalInsights/workspaces/workspace-sitecounter/savedSearches/LogManagement(workspace-sitecounter)_LogManagement|WindowsFireawallPolicySettingsChangedByMachines",
+		"resource_type": "azurerm_log_analytics_saved_search",
+		"resource_name": "SC43"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f",
 		"resource_type": "azurerm_storage_account",
-		"resource_name": "res-4"
+		"resource_name": "SC508"
 	},
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Storage/storageAccounts/datdevstorage/blobServices/default/containers/$web": {
-		"resource_id": "https://datdevstorage.blob.core.windows.net/$web",
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/blobServices/default/containers/azure-webjobs-hosts": {
+		"resource_id": "https://sitecounter13405f.blob.core.windows.net/azure-webjobs-hosts",
 		"resource_type": "azurerm_storage_container",
-		"resource_name": "res-6"
+		"resource_name": "SC510"
 	},
-	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/microsoft.cdn/profiles/cdn-profile": {
-		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/DevStuff/providers/Microsoft.Cdn/profiles/cdn-profile",
-		"resource_type": "azurerm_cdn_profile",
-		"resource_name": "res-10"
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/blobServices/default/containers/azure-webjobs-secrets": {
+		"resource_id": "https://sitecounter13405f.blob.core.windows.net/azure-webjobs-secrets",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "SC511"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/blobServices/default/containers/scm-releases": {
+		"resource_id": "https://sitecounter13405f.blob.core.windows.net/scm-releases",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "SC512"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/fileServices/default/shares/sitecounterbca0": {
+		"resource_id": "https://sitecounter13405f.file.core.windows.net/sitecounterbca0",
+		"resource_type": "azurerm_storage_share",
+		"resource_name": "SC514"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/fileServices/default/shares/sitecounterde0cbe": {
+		"resource_id": "https://sitecounter13405f.file.core.windows.net/sitecounterde0cbe",
+		"resource_type": "azurerm_storage_share",
+		"resource_name": "SC515"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounter13405f/tableServices/default/tables/mctable": {
+		"resource_id": "https://sitecounter13405f.table.core.windows.net/Tables('mctable')",
+		"resource_type": "azurerm_storage_table",
+		"resource_name": "SC518"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "SC519"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97/blobServices/default/containers/azure-webjobs-hosts": {
+		"resource_id": "https://sitecounterbc97.blob.core.windows.net/azure-webjobs-hosts",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "SC521"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97/blobServices/default/containers/azure-webjobs-secrets": {
+		"resource_id": "https://sitecounterbc97.blob.core.windows.net/azure-webjobs-secrets",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "SC522"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97/blobServices/default/containers/scm-releases": {
+		"resource_id": "https://sitecounterbc97.blob.core.windows.net/scm-releases",
+		"resource_type": "azurerm_storage_container",
+		"resource_name": "SC523"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Storage/storageAccounts/sitecounterbc97/fileServices/default/shares/datwebcounter8332": {
+		"resource_id": "https://sitecounterbc97.file.core.windows.net/datwebcounter8332",
+		"resource_type": "azurerm_storage_share",
+		"resource_name": "SC525"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/connections/slack": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/connections/slack",
+		"resource_type": "azurerm_api_connection",
+		"resource_name": "SC528"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/serverFarms/ASP-sitecounter-b15d": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/serverfarms/ASP-sitecounter-b15d",
+		"resource_type": "azurerm_service_plan",
+		"resource_name": "SC529"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter",
+		"resource_type": "azurerm_linux_function_app",
+		"resource_name": "SC530"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter/functions/HttpTrigger2": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter/functions/HttpTrigger2",
+		"resource_type": "azurerm_function_app_function",
+		"resource_name": "SC534"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter/hostNameBindings/datwebcounter.azurewebsites.net": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter/hostNameBindings/datwebcounter.azurewebsites.net",
+		"resource_type": "azurerm_app_service_custom_hostname_binding",
+		"resource_name": "SC535"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/microsoft.insights/actiongroups/alertGroup": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Insights/actionGroups/alertGroup",
+		"resource_type": "azurerm_monitor_action_group",
+		"resource_name": "SC536"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/microsoft.insights/components/datwebcounter": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Insights/components/datwebcounter",
+		"resource_type": "azurerm_application_insights",
+		"resource_name": "SC537"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/microsoft.insights/metricalerts/requestRate": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Insights/metricAlerts/requestRate",
+		"resource_type": "azurerm_monitor_metric_alert",
+		"resource_name": "SC538"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/microsoft.insights/metricalerts/responseTime": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Insights/metricAlerts/responseTime",
+		"resource_type": "azurerm_monitor_metric_alert",
+		"resource_name": "SC539"
+	},
+	"/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/microsoft.insights/metricalerts/returnError": {
+		"resource_id": "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Insights/metricAlerts/returnError",
+		"resource_type": "azurerm_monitor_metric_alert",
+		"resource_name": "SC540"
 	}
 }
