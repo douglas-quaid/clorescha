@@ -8,8 +8,8 @@
       "methods": [
         "get",
         "post"
-      ],
-      "route": "messages/{id}"
+      ]
+      
     },
     {
       "type": "http",
