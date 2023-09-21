@@ -1,7 +1,9 @@
 name: Purge Azure CDN
 
-on: [push]
-
+on:
+  push:
+    paths:
+      - upload/**
 jobs:
   build:
 
