@@ -80,3 +80,5 @@ resource "azurerm_storage_blob" "webfolder" {
   source                 = each.key
   content_md5            = filemd5(each.key)
 }
+
+

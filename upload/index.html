@@ -28,7 +28,7 @@ This a dogebread
 
 <script>
 function myFunction() {
-	fetch('https://datwebcounter.azurewebsites.net/api/messages/{id}?')
+	fetch('https://datwebcounter.azurewebsites.net/api/httptrigger2')
     // Successful API call
     .then(function (response) {
 	return response.text();})
@@ -45,6 +45,7 @@ function myFunction() {
 document.onload = myFunction();
 </script>
 
+<p>NewTestLine for purgecdn</p>
 
 </body>
 </html>

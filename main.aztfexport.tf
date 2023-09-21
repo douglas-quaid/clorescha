@@ -561,7 +561,7 @@ resource "azurerm_linux_function_app" "SC530" {
   ]
 }
 resource "azurerm_function_app_function" "SC534" {
-  config_json     = "{\"bindings\":[{\"authLevel\":\"anonymous\",\"direction\":\"in\",\"methods\":[\"get\",\"post\"],\"name\":\"req\",\"route\":\"messages/{id}\",\"type\":\"httpTrigger\"},{\"direction\":\"out\",\"name\":\"$return\",\"type\":\"http\"},{\"connection\":\"MyStorageConnectionAppSetting\",\"direction\":\"out\",\"name\":\"out\",\"tableName\":\"visitcount\",\"type\":\"table\"},{\"connection\":\"MyStorageConnectionAppSetting\",\"direction\":\"in\",\"name\":\"messageJSON\",\"partitionKey\":\"count\",\"tableName\":\"visitcount\",\"type\":\"table\"}]}"
+  config_json     = "{\"bindings\":[{\"authLevel\":\"anonymous\",\"direction\":\"in\",\"methods\":[\"get\",\"post\"],\"name\":\"req\",\"type\":\"httpTrigger\"},{\"direction\":\"out\",\"name\":\"$return\",\"type\":\"http\"},{\"connection\":\"MyStorageConnectionAppSetting\",\"direction\":\"out\",\"name\":\"out\",\"tableName\":\"visitcount\",\"type\":\"table\"},{\"connection\":\"MyStorageConnectionAppSetting\",\"direction\":\"in\",\"name\":\"messageJSON\",\"partitionKey\":\"count\",\"tableName\":\"visitcount\",\"type\":\"table\"}]}"
   function_app_id = "/subscriptions/0230500b-262a-496c-b8ad-4eb1cb68dede/resourceGroups/sitecounter/providers/Microsoft.Web/sites/datwebcounter"
   name            = "HttpTrigger2"
   depends_on = [

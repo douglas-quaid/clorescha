@@ -1,0 +1,14 @@
+import requests
+
+class emptyBody(Exception):
+    "Raised when the URL returns nothing"
+    pass
+
+try:
+    r = requests.get("https://datwebcounter.azurewebsites.net/api/httptrigger2")
+    if len(r.text) == 0:
+        raise emptyBody
+    
+except requests.exceptions.RequestException as e:
+    print("RequestError")
+    raise SystemExit(e)

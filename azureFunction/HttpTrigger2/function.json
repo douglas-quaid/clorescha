@@ -9,7 +9,7 @@
         "get",
         "post"
       ]
-      
+
     },
     {
       "type": "http",
