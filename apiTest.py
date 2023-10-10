@@ -5,7 +5,7 @@ class emptyBody(Exception):
     pass
 
 try:
-    r = requests.get("https://datwebcounter.azurewebsites.net/api/httptrigger2")
+    r = requests.get("https://datwebcounter.azurewebsites.net/api/httptrigger244")
     if len(r.text) == 0:
         raise emptyBody
     else:

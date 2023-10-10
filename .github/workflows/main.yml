@@ -6,7 +6,6 @@ on:
     types:
       - completed
 
-
 jobs:
   hello-world:
     name: Run API Test file
@@ -15,6 +14,6 @@ jobs:
     - name: Check-out devops repository
       uses: actions/checkout@v2
 
-    - name: Hello World
+    - name: API Test
       run: python apiTest.py
       shell: sh
