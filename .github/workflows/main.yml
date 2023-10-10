@@ -1,11 +1,15 @@
-name: On Push Run
+name: API Test
 
-on: push
+on:
+  workflow_run:
+    workflows: [Terraform]
+    types:
+      - completed
 
 
 jobs:
   hello-world:
-    name: Hello world
+    name: Run API Test file
     runs-on: ubuntu-latest
     steps:
     - name: Check-out devops repository
