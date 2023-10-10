@@ -79,10 +79,10 @@ resource "azurerm_storage_blob" "webfolder" {
   content_type           = "text/html"
   source                 = each.key
   //content_md5            = filemd5(each.key) ---> old code to replace the website index & 404 files
-  lifecycle {     
-    ignore_changes = [       
-      content_md5,     
-    ]   
+  lifecycle {
+    ignore_changes = [
+      content_md5,
+    ]
   } // this block asks terraform to ignore file changes
 }
 
