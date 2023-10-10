@@ -8,6 +8,8 @@ try:
     r = requests.get("https://datwebcounter.azurewebsites.net/api/httptrigger2")
     if len(r.text) == 0:
         raise emptyBody
+    else:
+        print("OK")
     
 except requests.exceptions.RequestException as e:
     print("RequestError")
